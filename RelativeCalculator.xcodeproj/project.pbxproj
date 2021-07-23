@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC36A02826A90CC1002CDDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A02726A90CC1002CDDF1 /* AppDelegate.m */; };
+		CC36A03326A90CC4002CDDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC36A03226A90CC4002CDDF1 /* Assets.xcassets */; };
+		CC36A03926A90CC4002CDDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A03826A90CC4002CDDF1 /* main.m */; };
+		CC36A04A26A93DBB002CDDF1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A04926A93DBB002CDDF1 /* RootViewController.m */; };
+		CC36A09B26A95EE4002CDDF1 /* RelativeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A09A26A95EE4002CDDF1 /* RelativeButton.m */; };
+		CC36A0A326A99968002CDDF1 /* RelativeDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A0A226A99968002CDDF1 /* RelativeDataManager.m */; };
+		CC36A0A626A999C5002CDDF1 /* RelativeDataPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC36A0A526A999C5002CDDF1 /* RelativeDataPlist.plist */; };
+		CC36A0EA26A99EEE002CDDF1 /* RelativeData_0.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A0E926A99EEE002CDDF1 /* RelativeData_0.m */; };
+		CC36A0EF26A99F9B002CDDF1 /* RelativeData_1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A0EE26A99F9B002CDDF1 /* RelativeData_1.m */; };
+		CC36A0F426A9A2A3002CDDF1 /* RelativeData_2.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36A0F326A9A2A3002CDDF1 /* RelativeData_2.m */; };
+		CC36A0F726AA52B7002CDDF1 /* README.html in Resources */ = {isa = PBXBuildFile; fileRef = CC36A0F626AA52B7002CDDF1 /* README.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC36A02326A90CC1002CDDF1 /* RelativeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelativeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC36A02626A90CC1002CDDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC36A02726A90CC1002CDDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC36A03226A90CC4002CDDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC36A03726A90CC4002CDDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC36A03826A90CC4002CDDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC36A04826A93DBB002CDDF1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CC36A04926A93DBB002CDDF1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CC36A09926A95EE4002CDDF1 /* RelativeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeButton.h; sourceTree = "<group>"; };
+		CC36A09A26A95EE4002CDDF1 /* RelativeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelativeButton.m; sourceTree = "<group>"; };
+		CC36A09D26A95FA0002CDDF1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC36A0A126A99968002CDDF1 /* RelativeDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeDataManager.h; sourceTree = "<group>"; };
+		CC36A0A226A99968002CDDF1 /* RelativeDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelativeDataManager.m; sourceTree = "<group>"; };
+		CC36A0A526A999C5002CDDF1 /* RelativeDataPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RelativeDataPlist.plist; sourceTree = "<group>"; };
+		CC36A0E726A99A48002CDDF1 /* RelativeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeProtocol.h; sourceTree = "<group>"; };
+		CC36A0E826A99EEE002CDDF1 /* RelativeData_0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeData_0.h; sourceTree = "<group>"; };
+		CC36A0E926A99EEE002CDDF1 /* RelativeData_0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelativeData_0.m; sourceTree = "<group>"; };
+		CC36A0ED26A99F9B002CDDF1 /* RelativeData_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeData_1.h; sourceTree = "<group>"; };
+		CC36A0EE26A99F9B002CDDF1 /* RelativeData_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelativeData_1.m; sourceTree = "<group>"; };
+		CC36A0F226A9A2A3002CDDF1 /* RelativeData_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelativeData_2.h; sourceTree = "<group>"; };
+		CC36A0F326A9A2A3002CDDF1 /* RelativeData_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelativeData_2.m; sourceTree = "<group>"; };
+		CC36A0F626AA52B7002CDDF1 /* README.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = README.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC36A02026A90CC1002CDDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC36A01A26A90CC1002CDDF1 = {
+			isa = PBXGroup;
+			children = (
+				CC36A02526A90CC1002CDDF1 /* RelativeCalculator */,
+				CC36A02426A90CC1002CDDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC36A02426A90CC1002CDDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A02326A90CC1002CDDF1 /* RelativeCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC36A02526A90CC1002CDDF1 /* RelativeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A0F626AA52B7002CDDF1 /* README.html */,
+				CC36A02626A90CC1002CDDF1 /* AppDelegate.h */,
+				CC36A02726A90CC1002CDDF1 /* AppDelegate.m */,
+				CC36A04426A93D72002CDDF1 /* Main */,
+				CC36A03226A90CC4002CDDF1 /* Assets.xcassets */,
+				CC36A03726A90CC4002CDDF1 /* Info.plist */,
+				CC36A09D26A95FA0002CDDF1 /* PrefixHeader.pch */,
+				CC36A03826A90CC4002CDDF1 /* main.m */,
+			);
+			path = RelativeCalculator;
+			sourceTree = "<group>";
+		};
+		CC36A04426A93D72002CDDF1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A04726A93DA1002CDDF1 /* V */,
+				CC36A04626A93D9D002CDDF1 /* M */,
+				CC36A04526A93D98002CDDF1 /* VC */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CC36A04526A93D98002CDDF1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A04826A93DBB002CDDF1 /* RootViewController.h */,
+				CC36A04926A93DBB002CDDF1 /* RootViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CC36A04626A93D9D002CDDF1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A0E826A99EEE002CDDF1 /* RelativeData_0.h */,
+				CC36A0E926A99EEE002CDDF1 /* RelativeData_0.m */,
+				CC36A0ED26A99F9B002CDDF1 /* RelativeData_1.h */,
+				CC36A0EE26A99F9B002CDDF1 /* RelativeData_1.m */,
+				CC36A0F226A9A2A3002CDDF1 /* RelativeData_2.h */,
+				CC36A0F326A9A2A3002CDDF1 /* RelativeData_2.m */,
+				CC36A0E726A99A48002CDDF1 /* RelativeProtocol.h */,
+				CC36A0A126A99968002CDDF1 /* RelativeDataManager.h */,
+				CC36A0A226A99968002CDDF1 /* RelativeDataManager.m */,
+				CC36A0A526A999C5002CDDF1 /* RelativeDataPlist.plist */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CC36A04726A93DA1002CDDF1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CC36A09926A95EE4002CDDF1 /* RelativeButton.h */,
+				CC36A09A26A95EE4002CDDF1 /* RelativeButton.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC36A02226A90CC1002CDDF1 /* RelativeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC36A03C26A90CC4002CDDF1 /* Build configuration list for PBXNativeTarget "RelativeCalculator" */;
+			buildPhases = (
+				CC36A01F26A90CC1002CDDF1 /* Sources */,
+				CC36A02026A90CC1002CDDF1 /* Frameworks */,
+				CC36A02126A90CC1002CDDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelativeCalculator;
+			productName = RelativeCalculator;
+			productReference = CC36A02326A90CC1002CDDF1 /* RelativeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC36A01B26A90CC1002CDDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CC36A02226A90CC1002CDDF1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CC36A01E26A90CC1002CDDF1 /* Build configuration list for PBXProject "RelativeCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC36A01A26A90CC1002CDDF1;
+			productRefGroup = CC36A02426A90CC1002CDDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC36A02226A90CC1002CDDF1 /* RelativeCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC36A02126A90CC1002CDDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC36A03326A90CC4002CDDF1 /* Assets.xcassets in Resources */,
+				CC36A0F726AA52B7002CDDF1 /* README.html in Resources */,
+				CC36A0A626A999C5002CDDF1 /* RelativeDataPlist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC36A01F26A90CC1002CDDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC36A02826A90CC1002CDDF1 /* AppDelegate.m in Sources */,
+				CC36A0EF26A99F9B002CDDF1 /* RelativeData_1.m in Sources */,
+				CC36A0F426A9A2A3002CDDF1 /* RelativeData_2.m in Sources */,
+				CC36A0A326A99968002CDDF1 /* RelativeDataManager.m in Sources */,
+				CC36A0EA26A99EEE002CDDF1 /* RelativeData_0.m in Sources */,
+				CC36A03926A90CC4002CDDF1 /* main.m in Sources */,
+				CC36A04A26A93DBB002CDDF1 /* RootViewController.m in Sources */,
+				CC36A09B26A95EE4002CDDF1 /* RelativeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC36A03A26A90CC4002CDDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC36A03B26A90CC4002CDDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC36A03D26A90CC4002CDDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RelativeCalculator/PrefixHeader.pch";
+				INFOPLIST_FILE = RelativeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxzhang.RelativeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC36A03E26A90CC4002CDDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RelativeCalculator/PrefixHeader.pch";
+				INFOPLIST_FILE = RelativeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxzhang.RelativeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC36A01E26A90CC1002CDDF1 /* Build configuration list for PBXProject "RelativeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC36A03A26A90CC4002CDDF1 /* Debug */,
+				CC36A03B26A90CC4002CDDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC36A03C26A90CC4002CDDF1 /* Build configuration list for PBXNativeTarget "RelativeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC36A03D26A90CC4002CDDF1 /* Debug */,
+				CC36A03E26A90CC4002CDDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC36A01B26A90CC1002CDDF1 /* Project object */;
+}

@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  RelativeCalculator
+//
+//  Created by Zhanglx on 2021/7/22.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+#ifdef __IPHONE_13_0
+#define NavHeight ( [UIApplication sharedApplication].keyWindow.windowScene.statusBarManager.statusBarFrame.size.height + self.navigationController.navigationBar.frame.size.height)
+#else
+#define NavHeight ([UIApplication.sharedApplication statusBarFrame].size.height + self.navigationController.navigationBar.frame.size.height)
+#endif
+
+// 按钮宽高
+#define BtnWidth (ScreenWidth/4)
+#define BtnHeight BtnWidth
+
+// vc 背景色
+#define BGColor [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1]
+
+#endif /* PrefixHeader_pch */
